@@ -15,12 +15,13 @@ const reducer = (state = initialState, action) => {
     case FETCHUSERDATASUCCESS:
     return {
       ...state,
+      loading:false,
       data: [...state.data, ...action.payload.data],
       total_pages: action.payload.total_pages,
       current_page: action.payload.page
     }
 
-    case FETCHUSERDATAFAILURE : return {...state, error: action.payload }
+    case FETCHUSERDATAFAILURE : return {...state, loading:false, error: action.payload }
     default: return state;
   }
 }

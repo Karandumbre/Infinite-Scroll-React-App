@@ -46,3 +46,67 @@ main > h1 {
   color: #2e2e2c;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #ffd0ae 50%);
 }
+
+div.input-text {
+  margin-bottom: 10px;
+  min-height: 40px;
+}
+div.input-text input {
+  width: 100%;
+  border-radius: 10px;
+  padding-left: 10px;
+  border: 1px solid;
+}
+
+div.input-text span.errorMessage {
+  display: block;
+  color: red;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.form-submit {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.form-submit button {
+  width: 40%;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+  border-left: 16px solid pink;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
