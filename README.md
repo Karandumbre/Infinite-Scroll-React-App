@@ -12,15 +12,17 @@ This is an Infinite Scroll React application that loads user profiles from an AP
 
 ### Initial Load
 
-![Initial Load](file-pTSmDfx3eRugDD1sQKhcMjK3)
+![Initial Load]<img width="1263" alt="Screen 1" src="https://github.com/Karandumbre/Infinite-Scroll-React-App/assets/40163773/7f0b2896-aa8a-49aa-959c-6b1571e486d9">
+
 
 ### Scrolled to Load More Profiles
 
-![Load More Profiles](file-uUUzMAbSqF2NMoDVTTltZezf)
+![Load More Profiles]<img width="1210" alt="Screen 2" src="https://github.com/Karandumbre/Infinite-Scroll-React-App/assets/40163773/d891f0f8-206e-499f-8d9e-1ac5322dafbc">
+
 
 ### Edit Profile Popup
 
-![Edit Profile Popup](file-y5bLbLxbifBhiBQf0o7CN9Y6)
+![Edit Profile Popup]<img width="669" alt="Edit profile" src="https://github.com/Karandumbre/Infinite-Scroll-React-App/assets/40163773/041ccc89-817f-4af7-ae3e-0f2f3b77f5d8">
 
 ## Getting Started
 
@@ -64,4 +66,4 @@ To get a local copy up and running, follow these steps.
 Contact
 Your Name - [@Karandumbre](https://x.com/karandumbre) - karandumbre1@gmail.com
 
-Project Link: https://github.com/your_username_/infinite-scroll-app
+Project Link: [https://github.com/your_username_/infinite-scroll-app](https://github.com/Karandumbre/Infinite-Scroll-React-App)
