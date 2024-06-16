@@ -1,10 +1,10 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import { useState, useEffect } from 'react';
-import { useSelector } from 'react-redux'
-import { debounce } from '../utils/debounce';
+import { useState, useEffect } from "react";
+import { useSelector } from "react-redux";
+import { debounce } from "../utils/debounce";
 export const useInfiniteScroll = () => {
-  const MAX_PAGES = useSelector(state => state.total_pages);
-  const CURRENT_PAGE = useSelector(state => state.current_page);
+  const MAX_PAGES = useSelector((state) => state.total_pages);
+  const CURRENT_PAGE = useSelector((state) => state.current_page);
   const [loading, setLoading] = useState(false);
   const [count, setCount] = useState(CURRENT_PAGE);
 
@@ -32,8 +32,8 @@ export const useInfiniteScroll = () => {
   }, [loading]);
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return { count };
